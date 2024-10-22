@@ -8,13 +8,11 @@ import '../css/style.css'; // Import your custom CSS file
 
 const Footer = () => {
     return (
-        <footer className="footer" style={{backgroundColor: "#d96571"}}>
+        <footer className="footer fixed-bottom" style={{background: "linear-gradient(to right, #d72b3d, #e9d0d5)"}}>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
-                        <p>© 2023 Geek. All rights reserved.</p>
-                    </div>
-                    <div className="col-md-6 text-md-right">
+                   
+                    <div className="col-md-12 text-md-right">
                         <ul className="social-icons list-unstyled">
                             <li>
                                 <a
@@ -39,6 +37,7 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
+    
     );
 };
 

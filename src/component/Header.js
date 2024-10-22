@@ -17,7 +17,7 @@ import '../css/style.css';
 
 const Header = () => {
     return (
-        <Navbar bg="blue" style={{backgroundColor: "#efa6ad"}} expand="lg"
+        <Navbar bg="blue" style={{background: "linear-gradient(to right, #d72b3d, #e9d0d5)"}} expand="lg"
             className="custom-navbar shadow-sm">
             <Navbar.Brand as={Link} to="/"
                 className="brand-name">

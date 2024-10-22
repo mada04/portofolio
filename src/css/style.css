@@ -232,7 +232,8 @@ body {
 }
 
 .skills-list li {
-    background-color: #17a2b8;
+    background:linear-gradient(45deg, #bb264e, #a940405c)!important;
+    
     color: #fff;
     border-radius: 5px;
     padding: 8px 12px;
@@ -341,3 +342,13 @@ body {
     display: none;
     /* Remove separator for the last breadcrumb */
 }
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+} 
